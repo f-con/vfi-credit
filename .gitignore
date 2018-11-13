@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
 vfi_credit.egg-info/
 vfi_credit/.ipynb_checkpoints.*
+vficredit.egg-info
+vficredit/__pycache__/*
+vficredit/__pycache/
+test/__pycache/

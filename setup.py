@@ -22,10 +22,10 @@ CURR_DIR = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(CURR_DIR, "README.rst"), encoding="utf-8") as file_open:
     LONG_DESCRIPTION = file_open.read()
 
-exec(open("vfi-credit/_version.py").read())
+exec(open("vficredit/_version.py").read())
 
 setup(
-    name="vfi-credit",
+    name="vficredit",
     version=__version__,
     description="VFI solver for economies with credit defaults",
     long_description=LONG_DESCRIPTION,
@@ -33,6 +33,6 @@ setup(
     author="FCON",
     author_email="s@fcon.xyz",
     license="Apache Software License",
-    packages=["vfi-credit"],
+    packages=["vficredit"],
     zip_safe=False,
 )

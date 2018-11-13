@@ -15,4 +15,10 @@
 # limitations under the License.
 
 from .econ import *
-from .utils import *
+from .equations import *
+
+import logging
+
+logging.basicConfig(filename='vfi.log'
+                    ,level=logging.DEBUG
+                   ,format='%(asctime)s|%(levelname)s|%(message)s')
